@@ -1,9 +1,8 @@
 #include <iostream>
 using namespace std;
 
-int add_nums(int num1,int num2) {
+int add_nums(int nums[]) {
     int sum = 0;
-    int nums[2] = {num1, num2};
     for(int i = 0; i < 2; i++) {
         sum += nums[i];
     }
@@ -11,6 +10,7 @@ int add_nums(int num1,int num2) {
 }
 
 int main() {
-    cout << add_nums(3, 4);
+    int input_nums[2] = {3, 4};
+    cout << add_nums(input_nums);
     return 0;
 }
