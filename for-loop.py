@@ -1,9 +1,10 @@
 def add_nums(nums):
-    result = 0
+    summ = 0
     for x in nums:
-        result += x
-    return result
+        summ += x
+    return summ
 
 
 input_nums = [3, 4]
-print(add_nums(input_nums))
+result = add_nums(input_nums)
+print(f'sum: {result}')
