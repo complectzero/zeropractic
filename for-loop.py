@@ -8,3 +8,4 @@ def add_nums(nums):
 input_nums = [3, 4]
 result = add_nums(input_nums)
 print(f'sum: {result}')
+
